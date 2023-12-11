@@ -33,8 +33,11 @@ NS_ :
 
 BS_:
 
-BU_:
+BU_: switch light
 
+
+BO_ 291 MSG: 1 switch
+ SG_ swtich : 0|1@1+ (1,0) [0|1] ""  light
 
 
 
@@ -76,4 +79,8 @@ BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
 BA_DEF_DEF_  "GenSigInactiveValue" 0;
 BA_DEF_DEF_  "GenSigSendType" "Cyclic";
 BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_ "NmStationAddress" BU_ switch 2;
+BA_ "NmStationAddress" BU_ light 1;
+BA_ "GenMsgSendType" BO_ 291 0;
+BA_ "GenMsgCycleTime" BO_ 291 200;
 
