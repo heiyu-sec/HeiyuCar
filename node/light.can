@@ -1,0 +1,16 @@
+/*@!Encoding:936*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+on signal MSG::`switch
+{
+  @MyNameSpace::light=$MSG::`switch;
+}
+

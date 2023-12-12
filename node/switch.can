@@ -1,0 +1,17 @@
+/*@!Encoding:936*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+on sysvar MyNameSpace::`switch
+{
+  $MSG::swtich=@this;
+  write("%d is switch",@this);
+}
+
